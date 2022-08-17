@@ -1,5 +1,12 @@
 /** @format */
 
-const stringLength = (string) => string.length;
+const stringLength = (string) => {
+	if (string.length === 0) {
+		return 'Empty String';
+	} else if (string.length > 10) {
+		return 'Long String';
+	}
+	return string.length;
+};
 
 module.exports = stringLength;
