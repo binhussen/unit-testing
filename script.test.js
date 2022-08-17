@@ -1,15 +1,19 @@
 /** @format */
 
-const stringLength = require('./script.js');
+const { stringLength, reverseString } = require('./script.js');
 
 test('count length of the string', () => {
 	expect(stringLength('hi mhd')).toBe(6);
 });
 
-test('count length of the string', () => {
+test('check empty string', () => {
 	expect(stringLength('')).toBe('Empty String');
 });
 
-test('count length of the string', () => {
+test('check longer than 10', () => {
 	expect(stringLength('hello mohammed hussen')).toBe('Long String');
+});
+
+test('check reverse string', () => {
+	expect(reverseString('hello')).toBe('olleh');
 });
