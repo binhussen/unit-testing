@@ -1,0 +1,22 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "Practical tests for JavaScript functions using the [Jest](https://jestjs.io/) library By following the [AAA pattern](https://github.com/goldbergyoni/javascript-testing-best-practices#-%EF%B8%8F-12-structure-tests-by-the-aaa-pattern) to make tests easier for other developers to read and understand and use the TDD approach in practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binhussen/unit-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binhussen/unit-testing/issues"
+  },
+  "homepage": "https://github.com/binhussen/unit-testing#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
