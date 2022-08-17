@@ -1,6 +1,11 @@
 /** @format */
 
-const { stringLength, reverseString, Calculator } = require('./script.js');
+const {
+	stringLength,
+	reverseString,
+	Calculator,
+	capitalize,
+} = require('./script.js');
 
 test('count length of the string', () => {
 	expect(stringLength('hi mhd')).toBe(6);
@@ -43,4 +48,8 @@ describe('Calculator ', () => {
 		test('Test 2', () => expect(calculator.div(20, 10)).toEqual(2));
 		test('Test 3', () => expect(calculator.div(30, 15)).toEqual(2));
 	});
+});
+
+test('check capitalize string', () => {
+	expect(capitalize('software programmers')).toBe('Software Programmers');
 });
